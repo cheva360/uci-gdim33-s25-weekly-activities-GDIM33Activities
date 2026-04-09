@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: egg
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"egg","summary":null,"pan":{"x":296.8032,"y":200.5558},"zoom":0.9466584,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"vfx","$type":"System.String"}},"position":{"x":109.0,"y":70.0},"guid":"7eb6fafb-3369-41df-9cec-f239d2ac6231","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"chainable":false,"parameterNames":[],"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.ParticleSystem","targetTypeName":"UnityEngine.ParticleSystem","$version":"A"},"defaultValues":{"target":null},"position":{"x":354.0,"y":95.0},"guid":"7f94397d-a1b6-4e6f-9407-be01f49c0e50","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"particle","$type":"System.String"},"object":null},"position":{"x":161.0,"y":218.0},"guid":"8429fb94-2952-46bf-b95a-79cf7a16148a","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"8ab0c903-c100-4097-9a18-e404ab003430","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"379e1111-d9e0-4b71-bd2e-bbd6fced9ffd","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":63.22452,"yMin":29.91838,"xMax":517.1022,"yMax":367.5715},"label":"VFX
+      event","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"02c7d0dd-2744-4d14-9d78-f8565a9fd333","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
