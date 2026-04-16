@@ -12,6 +12,10 @@
 
 
 ## W2
-Write your W2 Devlog here.
+1. Its advantageous to save as a scene variable so that you can easily reference it in other scripts and not have to worry about getting the name wrong.
+2. Debug log helped me figure out click was being triggered
+3. Yes, because the cursor is locked in gameplay and unlocked in UI menus.
+4. Yes, game states are relevant to my slice because there are multiple states that the player can be in.
 
-Continue adding additional headers below this one for future weeks and future activities.
+
+## W3
