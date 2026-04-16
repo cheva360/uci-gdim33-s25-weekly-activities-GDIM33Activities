@@ -12,6 +12,9 @@
 
 
 ## W2
+<img width="2494" height="3136" alt="climbingfoddiangameBreakdownV2" src="https://github.com/user-attachments/assets/59b208a5-3d41-4d9a-b802-ba58ae2a5854" />
+
+
 1. Its advantageous to save as a scene variable so that you can easily reference it in other scripts and not have to worry about getting the name wrong.
 2. Debug log helped me figure out click was being triggered
 3. Yes, because the cursor is locked in gameplay and unlocked in UI menus.
