@@ -48,3 +48,24 @@ Playtesting Group
 2. There is no limit to the number of dialogue nodes. Writers could easily allow a dialogue that has 100 nodes if they wanted to.
 3. Regenerate nodes is like hitting refresh to make the visual scripting aware of the changes you have made to the project. If you add something new, sometimes the graph won't be aware of it until you regenerate nodes.
 
+## W5
+### Activity 1
+Intro Cutscene
+
+1. Make new scene and UI for cutscene
+	- Duplicate scene
+	- Play timeline on start of scene
+	- Move to main scene on timeline finish
+2. Import rigs
+	- Add rig of Player properly scaled with the current player model
+	- Add rig of the Bird with the included animations
+	- Add sandwich rig/model?
+3. Move rigs and camera in timeline w/ animation 
+	- Add rigs to timeline
+	- Move camera in timeline 
+	- Move rigs in timeline
+	- Add animations to timeline
+
+### Activity 2
+- Added timeline that rotates camera and player, and then switches to the main gameplay scene.
+- Added rig for the bird and animation, and made the bird fly by the player.
