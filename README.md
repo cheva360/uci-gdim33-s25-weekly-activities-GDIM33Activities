@@ -69,3 +69,27 @@ Intro Cutscene
 ### Activity 2
 - Added timeline that rotates camera and player, and then switches to the main gameplay scene.
 - Added rig for the bird and animation, and made the bird fly by the player.
+
+## W6
+### Activity 1
+New Additions:
+- Added stamina bar that depletes dynamically based on how much the player is pulling down with the arm that is grabbing.
+- Adjusted climbing speed and made the speed differ more between mouse and controller.
+
+
+Playtesting questions:
+1. Do the controls feel snappy and intuitive on both controller and keyboard/mouse? Is it too fast or slow?
+2. Does the stamina bar feel intuitive? Do you know what replenishes your stamina?
+3. Is it fun?
+
+[Itch Build](https://cheva360.itch.io/sandwichclimber)
+
+Playtesting notes:
+- Feels intuitive on both controller and mouse, moreso on one than the other depending on the player. 
+- The first intuition of most players who havent seen the level is to just purely climb upwards, not go to the side. Make the level design generally more vertical OR add an obstacle to force them a certain way. When the players fall, they should slide or be moved back to the beginning. 
+
+### Activity 2
+1. Multiplying two values between 0.0 and 1.0 will always result in a smaller value, which is why the resulting color is darker and less saturated. 0.2 * 0.8 = 0.16, which is less than both 0.2 and 0.8.
+2. Multiplying two alpha values between 0.0 and 1.0 will also result in a smaller value, meaning that it will end up more transparent overall.
+3. The UV values are stored in the data within the mesh of the object the material is applied to. 
+4. Yes! I think it allows for a lot of unique effects and things that can be manipulated in the same ways vector 3's are in code.
