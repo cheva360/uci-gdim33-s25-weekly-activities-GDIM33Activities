@@ -93,3 +93,20 @@ Playtesting notes:
 2. Multiplying two alpha values between 0.0 and 1.0 will also result in a smaller value, meaning that it will end up more transparent overall.
 3. The UV values are stored in the data within the mesh of the object the material is applied to. 
 4. Yes! I think it allows for a lot of unique effects and things that can be manipulated in the same ways vector 3's are in code.
+
+## W7
+
+### Activity 1
+1. The data for the vertex color node came from the data stored in the mesh of the shiba. Each vertex has an associated color value.
+
+2. The vertex colors are blended because the color is only stored at the point of the vertex, to fill in the color between vertices the shader interpolates the color values between vertices.
+
+3. The shiba is less detailed because its color is only determined by the color values at the vertices, which are then blended together. Texture mapping allows for pixel-level color detail, something only having vertex color is incapable of.
+
+4. There is a sploch on the left hind leg of the shiba that is a different color than the rest of the shiba. 
+
+5. Another piece of vertex data that could possible be useful is the vertex positions. There could be issues with vertexes that are not in the correct position.
+
+6. Theres an error because the light direction is in the oppsosite direction. Its lighted improperly until you multiply the light direction by -1, which flips the direction of the light and makes it light the shiba properly.
+
+7. We set the blend mode to additive for the texture so that the alpha channel of the texture can be used to make parts of the texture transparent, and so that the colors of the fire can be added on top of the fires noise texture.
