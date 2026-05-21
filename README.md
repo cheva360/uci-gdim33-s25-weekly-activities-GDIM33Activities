@@ -110,3 +110,24 @@ Playtesting notes:
 6. Theres an error because the light direction is in the oppsosite direction. Its lighted improperly until you multiply the light direction by -1, which flips the direction of the light and makes it light the shiba properly.
 
 7. We set the blend mode to additive for the texture so that the alpha channel of the texture can be used to make parts of the texture transparent, and so that the colors of the fire can be added on top of the fires noise texture.
+
+
+## W8
+### Activity 1
+Playtesting Notes:
+- Leg glitch is back :sob:, needs to be patched.....
+- stamina buff is good, just needs a bit more praticing for the player to get used to the difficulty of the game. The level is meant to be difficult, and its still plenty possible with a lot of leeway right now.
+
+Changes from Milestone2
+- Buff to stamina amount (200 -> 300)
+- Player could get stuck at a certain point of the level, now fixed
+
+[Itch Build](https://cheva360.itch.io/sandwichclimbermilestone3)
+
+
+### Activity 2A
+How are we utilizing the stencil buffer- specifically the Compare Function and Pass/Fail operations for both the Outline and Cel renderer features- in Step (2) to create the outline effect?
+1. The stencil buffer is being used to create the outline effect by rendering the shiba to the stencil buffer and comparing it to a stencil value of 1. In the areas that the shiba is not rendered (the outline) the stencil value is equal to 0 which is where the outline is rendered.
+2. The shiba is being drawn twice, due to the outline effect, specifically because of the stencil buffer.
+3. We add them together because we want the final color to be contributed to both of them without being darkened. If we multiplied them together, the color would be darkened and saturated.
+4. Changing the layer of the shiba enables the outline because the outline is only rendered on objects in the 'outline' layer.
