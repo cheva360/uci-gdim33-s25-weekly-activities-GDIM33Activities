@@ -151,3 +151,5 @@ ShaderGraph:
 
 
 This shader graph is my attempt at making an ease out fade shader. When the player enters a trigger, the script sets the IsFade bool to true and the start amount to time.time. The shader then subtracts the start time from the current time to get the elapsed time, and is divided by the duration float as well as put into a smooth step to create the ease effect. 
+
+The shader is activated when a player triggers a stamina bubble, which replenishes stamina and also activates the bool and sets the start time to create the visual effect.
