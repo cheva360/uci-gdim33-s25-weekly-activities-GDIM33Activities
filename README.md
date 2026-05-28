@@ -131,3 +131,20 @@ How are we utilizing the stencil buffer- specifically the Compare Function and P
 2. The shiba is being drawn twice, due to the outline effect, specifically because of the stencil buffer.
 3. We add them together because we want the final color to be contributed to both of them without being darkened. If we multiplied them together, the color would be darkened and saturated.
 4. Changing the layer of the shiba enables the outline because the outline is only rendered on objects in the 'outline' layer.
+
+## W9
+### Activity 1
+Red Dead Redemption 2
+
+### Activity 2
+In Read Dead 2 the camera has a lot of rendering systems affected by gameplay. 
+- When the player activates dead eye, the camera lowers the post processing vibrance, adds a bit of vignette, and changes the color grading to a sepia tone. This affect is also done for certain cinematic death cutscenes when a player hits a good shot/kill.
+- When the player enters a dialogue cutscene with an NPC, the depth of field changes to keep the NPC's in focus and blur the background. Its a very subtle effect that changes depending on the scene, but keeps the focus on the NPC's.
+
+Generally both of these effects could be recreated by changing the post processing volume setting values dynamically through a script of the player state.
+
+### Activity 3
+
+ShaderGraph:
+
+This shader graph is my attempt at making an ease out fade shader. When the player enters a trigger, the script sets the IsFade bool to true and the start amount to time.time. The shader then subtracts the start time from the current time to get the elapsed time, and is divided by the duration float as well as put into a smooth step to create the ease effect. 
