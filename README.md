@@ -147,4 +147,7 @@ Generally both of these effects could be recreated by changing the post processi
 
 ShaderGraph:
 
+<img width="2469" height="1249" alt="image" src="https://github.com/user-attachments/assets/2925d549-5a35-4dce-abf3-ac90edb37af2" />
+
+
 This shader graph is my attempt at making an ease out fade shader. When the player enters a trigger, the script sets the IsFade bool to true and the start amount to time.time. The shader then subtracts the start time from the current time to get the elapsed time, and is divided by the duration float as well as put into a smooth step to create the ease effect. 
