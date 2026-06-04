@@ -153,3 +153,21 @@ ShaderGraph:
 This shader graph is my attempt at making an ease out fade shader. When the player enters a trigger, the script sets the IsFade bool to true and the start amount to time.time. The shader then subtracts the start time from the current time to get the elapsed time, and is divided by the duration float as well as put into a smooth step to create the ease effect. 
 
 The shader is activated when a player triggers a stamina bubble, which replenishes stamina and also activates the bool and sets the start time to create the visual effect.
+
+
+## W10
+### Activity 1
+1. Little Changed from Milestone 3, mostly just changes in values and some bug fixes based on feedback from playtesting outside of class.
+2. [Itch Build](https://cheva360.itch.io/sandwichclimbermilestone3)
+3. How does the game currently feel? Does the rotation make sense?
+4. Stamina bubbles can be easily cheesed by just staying by a bubble and letting it respawn, basically making for infinite height. Stamina bubbles should only respawn after falling and hitting a trigger. 
+
+### Activity 2
+For future projects, here is the general plan for the development process (based on both what I planned for this project as well as my game for GDIM 129):
+1. Game Design Document:
+	- Pretty Much everything should go here. Writing, ideas, mechanics, and most importantly breaking down these ideas into a plan of how they will be implemented into the game. It can be more reformed later on, but it was extremely useful for other projects with bigger scope for understanding what the vision for the game is, and what should be put onto the task sheet next, especially all the super small parts of a bigger system.
+2. Google Sheets Task Sheet:
+	- This one I would say is heavily dependent on the scope of the project, as well as whether you are a solo dev or in a team, but generally its really good for reminding yourself what to work on, and keeping yourself accountable. My brain was so scattered with so many projects this quarter that having something to come back to that I had already planned was super helpful for keeping myself on task on what is most important for me to work on at the moment.
+
+### Activity 3
+Today I worked on adjusting the map a bit after seeing playtesters navigating up more than they were navigating to the side. 
